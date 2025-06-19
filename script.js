@@ -3,4 +3,5 @@ botao.addEventListener("click", function () {
     document.getElementById("invisivel").style.display = "block"
 const som = document.querySelector("#invisivel audio");
 som.play();
+document.documentElement.requestFullscreen();
 });
