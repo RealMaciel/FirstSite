@@ -1,0 +1,48 @@
+@keyframes degradê {
+    0% {background-color: blue;}
+    20% {background-color: cyan;}
+    40% {background-color: greenyellow;}
+    60% {background-color: yellow;}
+    80% {background-color: orange;}
+    100% {background-color: red;}
+}
+@keyframes pulo {
+    0% {transform: translateY(0);}
+    50% {transform: translateY(-20px);}
+    100% {transform: translateY(0)}
+}
+body {
+    animation: degradê 10s infinite;
+    font-family: Roboto;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+}
+h1 {
+    animation: pulo 5s infinite ease-in;
+}
+button {
+    border: 20px solid black;
+    border-radius: 20px;
+    border-color: black;
+    width: 600px;
+    height: 500px;
+    font-size: 100px;
+    cursor: pointer;
+}
+p {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 100px;
+}
+#invisivel {
+    display: none;
+}
+img {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+}
